@@ -9,7 +9,6 @@
 
         <remote name="anu"
                 fetch="https://github.com/ini23" />
-
         
         <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660_southwest" remote="anu" revision="11.0-eas-wifi-r" clone-depth="1" />
         <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="iqbal" revision="lineage-18.1" clone-depth="1" />
