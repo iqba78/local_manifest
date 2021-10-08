@@ -25,7 +25,7 @@
         <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="rom" />
 
 	<!--Remove existing repo-->
-    <remove-project name="android_kernel_xiaomi_sdm660_southwest"  path="kernel/xiaomi/sdm660" " />
+    <remove-project name="android_kernel_xiaomi_sdm660_southwest" path="kernel/xiaomi/sdm660" />
     <remove-project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" />
     <remove-project name="android_frameworks_av" path="frameworks/av" />
     <remove-project name="android_frameworks_base" path="frameworks/base" />
