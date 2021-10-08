@@ -40,5 +40,5 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rom" />
 
 <!-- Clang -->
- <project name="MhmmdAmier/GabutersTC-clang" path="prebuilts/clang/host/linux-x86/GabutersTC-clang" remote="github" revision="13" />
+ <project name="MhmmdAmier/GabutersTC-clang" path="prebuilts/clang/host/linux-x86/GabutersTC-clang" remote="git" revision="13" />
 </manifest>
