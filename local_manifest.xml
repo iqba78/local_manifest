@@ -33,7 +33,7 @@
     <remove-project name="android_packages_apps_Settings" path="packages/apps/Settings" />
 
 	<!--Clone new repo-->
-  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="anu" revision="dotos" />
+  <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660" remote="anu" revision="dotos" />
   <project path="hardware/qcom-caf/msm8998/display" name="11-whyred-new/hardware_qcom-caf_msm8998_display" groups="pdk-qcom,qcom,qcom_display" remote="git" revision="dotos" />
   <project path="frameworks/av" name="android_frameworks_av-1" remote="rom" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rom" />
