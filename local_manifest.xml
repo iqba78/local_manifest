@@ -17,7 +17,7 @@
           revision="refs/heads/dot11.0" />
 
         <!--Sync repo-->
-        <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660_southwest" remote="anu" revision="dotos" />
+        <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="anu" revision="dotos" />
         <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="iqbal" revision="dotos" />
         <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="iqbal" revision="dotos" />
         <project path="vendor/xiaomi" name="vendor_xiaomi" remote="iqbal" revision="dotos" />
