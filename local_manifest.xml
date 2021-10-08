@@ -31,7 +31,7 @@
 
 	<!--Clone new repo-->
   <project name="hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="iqbal" revision="dotos" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="rom" />
+  <project path="frameworks/av" name="android_frameworks_av-1" remote="rom" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rom" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rom" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rom" />
