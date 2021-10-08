@@ -8,11 +8,18 @@
          <remote name="anu"
                 fetch="https://github.com/ini23"
                 revision="refs/heads/dotos" />
-        
+
+        <!--Sync repo-->
         <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660_southwest" remote="anu" revision="dotos" />
         <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="iqbal" revision="dotos" />
         <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="iqbal" revision="dotos" />
         <project path="vendor/xiaomi" name="vendor_xiaomi" remote="iqbal" revision="dotos" />
         <project path="vendor/MiuiCamera" name="MiuiCamera" remote="iqbal" revision="dotos" />
         <project path="vendor/xiaomi/google" name="vendor_xiaomi_google" remote="anu" revision="dotos" />
+
+	<!--Remove existing repo-->
+    <remove-project name="hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" />
+	<!--Clone new repo-->
+    <project name="hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="iqbal" revision="dotos" />
+
 </manifest>
