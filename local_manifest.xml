@@ -25,7 +25,8 @@
         <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="rom" />
 
 	<!--Remove existing repo-->
-   <remove-project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" />
+    <remove-project name="GabutersTC-clang" path="prebuilts/clang/host/linux-x86/GabutersTC-clang" />
+    <remove-project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" />
     <remove-project name="android_frameworks_av" path="frameworks/av" />
     <remove-project name="android_frameworks_base" path="frameworks/base" />
     <remove-project name="android_packages_services_Telecomm" path="packages/services/Telecomm" />
