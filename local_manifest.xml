@@ -9,6 +9,10 @@
                 fetch="https://github.com/ini23"
                 revision="refs/heads/dotos" />
 
+  <remote name="rom"
+          fetch="https://github.com/dotMod"
+          revision="refs/heads/dot11.0" />
+
         <!--Sync repo-->
         <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660_southwest" remote="anu" revision="dotos" />
         <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="iqbal" revision="dotos" />
@@ -16,10 +20,19 @@
         <project path="vendor/xiaomi" name="vendor_xiaomi" remote="iqbal" revision="dotos" />
         <project path="vendor/MiuiCamera" name="MiuiCamera" remote="iqbal" revision="dotos" />
         <project path="vendor/xiaomi/google" name="vendor_xiaomi_google" remote="anu" revision="dotos" />
+        <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="rom" />
 
 	<!--Remove existing repo-->
-    <remove-project name="hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" />
-	<!--Clone new repo-->
-    <project name="hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="iqbal" revision="dotos" />
+    <remove-project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" />
+    <remove-project name="android_frameworks_av" path="frameworks/av" />
+    <remove-project name="android_frameworks_base" path="frameworks/base" />
+    <remove-project name="android_packages_services_Telecomm" path="packages/services/Telecomm" />
+    <remove-project name="android_packages_apps_Settings" path="packages/apps/Settings" />
 
+	<!--Clone new repo-->
+  <project name="hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="iqbal" revision="dotos" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="rom" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="rom" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rom" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rom" />
 </manifest>
