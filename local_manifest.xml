@@ -6,7 +6,7 @@
                 revision="refs/heads/dotos" />
 
          <remote name="predator"
-                fetch="https://github.com/ini23"
+                fetch="https://github.com/iqba78"
                 revision="refs/heads/dotos" />
         
         <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660" remote="predator" revision="dotos" />
