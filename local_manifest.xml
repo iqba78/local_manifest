@@ -4,10 +4,10 @@
         <remote name="iqba87"
                 fetch="https://github.com/iqba87" />
 
-         <remote name="wizardprjkt"
+        <remote name="wizardprjkt"
                 fetch="https://github.com/wizardprjkt" />
 
-         <remote name="kdrag0n"
+        <remote name="kdrag0n"
                 fetch="https://github.com/kdrag0n" />
 
         <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660" remote="predator" revision="dotos" />
@@ -19,5 +19,8 @@
         <remove-project name="hardware_qcom_audio" />
         <remove-project name="hardware_qcom_display" />
         <remove-project name="hardware_qcom_media" />
-        
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="wizardprjkt" revision="13x" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="wizardprjkt" revision="13x" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="wizardprjkt" revision="13x" />
+
 </manifest>
