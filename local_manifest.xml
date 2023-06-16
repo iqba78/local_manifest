@@ -16,9 +16,9 @@
         <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="iqba78" revision="thirteen" />
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_whyred-common" remote="iqba78" revision="thirteen" />
 
-        <remove-project name="hardware_qcom_audio" />
-        <remove-project name="hardware_qcom_display" />
-        <remove-project name="hardware_qcom_media" />
+        <remove-project name="hardware/qcom-caf/msm8998/audio" />
+        <remove-project name="hardware/qcom-caf/msm8998/display" />
+        <remove-project name="hardware/qcom-caf/msm8998/media" />
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="wizardprjkt" revision="13x" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="wizardprjkt" revision="13x" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="wizardprjkt" revision="13x" />
