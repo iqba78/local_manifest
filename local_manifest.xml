@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="iqba87"
-                fetch="https://github.com/iqba87" />
+        <remote name="iqba78"
+                fetch="https://github.com/iqba78" />
 
         <remote name="wizardprjkt"
                 fetch="https://github.com/wizardprjkt" />
