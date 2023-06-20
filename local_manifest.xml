@@ -11,7 +11,7 @@
           fetch="https://github.com/kdrag0n" />
 
         <remote name="pe"
-          fetch="https://github.com/PixelExperience" />
+          fetch="https://github.com/LineageOS" />
 
         <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660_southwest" remote="iqbal" revision="eas-bpf" />
         
@@ -23,7 +23,7 @@
         
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_whyred-common" remote="iqbal" revision="thirteen" />
 
-        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pe" revision="twelve" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="pe" revision="lineage-20" />
         
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
