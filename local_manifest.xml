@@ -3,7 +3,10 @@
 
         <remote name="iqbal"
           fetch="https://github.com/iqba78" />
-
+        
+       <remote name="ArrowOS"
+        fetch="https://github.com/ArrowOS" />
+        
         <remote name="wizardprjkt"
           fetch="https://github.com/wizardprjkt" />
 
