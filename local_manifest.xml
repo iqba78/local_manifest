@@ -19,6 +19,9 @@
         <remote name="pixel"
           fetch="https://github.com/PixelExperience" />
 
+        <remote name="Prash"
+          fetch="https://github.com/Prashant-1695" />
+
         <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660_southwest" remote="iqbal" revision="eas-bpf" />
         
         <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="iqbal" revision="thirteen" />
@@ -45,6 +48,6 @@
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.1-caf-msm8998" />    
 
   <remove-project name="bionic" />
-  <project path="bionic" name="bionic" remote="iqbal" revision="13" />    
-    
+  <project path="bionic" name="bionic" remote="Prash" revision="awaken" />       
+         
 </manifest>
