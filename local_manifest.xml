@@ -20,7 +20,7 @@
           fetch="https://github.com/PixelExperience" />
 
         <remote name="Prash"
-          fetch="https://github.com/SuperiorOS" />
+          fetch="https://github.com/Prashant-1695" />
 
         <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660_southwest" remote="iqbal" revision="eas-bpf" />
         
@@ -48,6 +48,6 @@
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.1-caf-msm8998" />    
 
   <remove-project name="bionic" />
-  <project path="bionic" name="android_bionic" remote="Prash" revision="thirteen" />       
+  <project path="bionic" name="bionic" remote="Prash" revision="awaken" />       
          
 </manifest>
