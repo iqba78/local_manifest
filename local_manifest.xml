@@ -8,15 +8,18 @@
       <remote name="pe" fetch="https://github.com/LineageOS" />
       <remote name="pixel" fetch="https://github.com/PixelExperience" /> 
       <remote name="Prash" fetch="https://github.com/Prashant-1695" />
-        
+
+<remove-project name="android_device_xiaomi_lavender" />
+<remove-project name="android_device_xiaomi_sdm660-common" />
+<remove-project name="android_vendor_xiaomi_lavender" />
+<remove-project name="android_vendor_xiaomi_sdm660" />
+      
         <project path="kernel/xiaomi/whyred" name="iqba78/android_kernel_xiaomi_sdm660_southwest" remote="iqbal" revision="eas-bpf" />
         <project path="device/xiaomi/whyred" name="iqba78/device_xiaomi_whyred" remote="iqbal" revision="thirteen" />
         <project path="device/xiaomi/sdm660-common" name="iqba78/device_xiaomi_whyred-common" remote="iqbal" revision="thirteen" />
         <project path="vendor/xiaomi/whyred" name="iqba78/vendor_xiaomi_whyred" remote="iqbal" revision="thirteen" />
         <project path="vendor/xiaomi/sdm660-common" name="iqba78/vendor_xiaomi_whyred-common" remote="iqbal" revision="thirteen" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="pe" revision="lineage-20" />      
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
-
 
   <!-- Replacements -->  
   <remove-project name="hardware_qcom_display" />
