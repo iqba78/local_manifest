@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
       <!-- Remote -->
-      <remote name="iqbal" fetch="https://github.com" />
+      <remote name="iqbal" fetch="https://github.com/iqba78" />
       <remote name="ArrowOS" fetch="https://github.com/ArrowOS" />
       <remote name="wizardprjkt" fetch="https://github.com/wizardprjkt" />
       <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
@@ -9,16 +9,15 @@
       <remote name="pixel" fetch="https://github.com/PixelExperience" /> 
       <remote name="Prash" fetch="https://github.com/Prashant-1695" />
 
-<!-- delete -->
 <remove-project name="android_device_xiaomi_sdm660-common" />
 <remove-project name="android_vendor_xiaomi_sdm660" />
       
         <!-- Trees -->
-        <project path="kernel/xiaomi/whyred" name="iqba78/android_kernel_xiaomi_sdm660_southwest" remote="iqbal" revision="eas-bpf" />
-        <project path="device/xiaomi/whyred" name="iqba78/device_xiaomi_whyred" remote="iqbal" revision="thirteen" />
-        <project path="device/xiaomi/sdm660-common" name="iqba78/device_xiaomi_whyred-common" remote="iqbal" revision="thirteen" />
-        <project path="vendor/xiaomi/whyred" name="iqba78/vendor_xiaomi_whyred" remote="iqbal" revision="thirteen" />
-        <project path="vendor/xiaomi/sdm660-common" name="iqba78/vendor_xiaomi_whyred-common" remote="iqbal" revision="thirteen" />
+        <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660_southwest" remote="iqbal" revision="eas-bpf" />
+        <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="iqbal" revision="thirteen" />
+        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_whyred-common" remote="iqbal" revision="thirteen" />
+        <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="iqbal" revision="thirteen" />
+        <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_whyred-common" remote="iqbal" revision="thirteen" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="pe" revision="lineage-20" />      
 
   <!-- clang -->
