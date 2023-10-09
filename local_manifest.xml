@@ -10,9 +10,7 @@
       <remote name="Prash" fetch="https://github.com/Prashant-1695" />
 
 <!-- delete -->
-<remove-project name="android_device_xiaomi_lavender" />
 <remove-project name="android_device_xiaomi_sdm660-common" />
-<remove-project name="android_vendor_xiaomi_lavender" />
 <remove-project name="android_vendor_xiaomi_sdm660" />
       
         <!-- Trees -->
