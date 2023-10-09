@@ -9,7 +9,12 @@
       <remote name="pixel" fetch="https://github.com/PixelExperience" /> 
       <remote name="Prash" fetch="https://github.com/Prashant-1695" />
 
-
+<!-- delete -->
+<remove-project name="android_device_xiaomi_lavender" />
+<remove-project name="android_device_xiaomi_sdm660-common" />
+<remove-project name="android_vendor_xiaomi_lavender" />
+<remove-project name="android_vendor_xiaomi_sdm660" />
+      
         <!-- Trees -->
         <project path="kernel/xiaomi/whyred" name="iqba78/android_kernel_xiaomi_sdm660_southwest" remote="iqbal" revision="eas-bpf" />
         <project path="device/xiaomi/whyred" name="iqba78/device_xiaomi_whyred" remote="iqbal" revision="thirteen" />
